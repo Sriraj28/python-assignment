@@ -15,7 +15,7 @@ set_a = {1, 2, 3, 4, 5}
 set_b = {4, 5, 6, 7, 8}
 set_a.add(6)
 
-print("\n--- Set Operations ---")
+print("--- Set Operations ---")
 print(f"Set A: {set_a}")
 print(f"Set B: {set_b}")
 
@@ -32,4 +32,5 @@ print(f"Intersection (A ∩ B): {intersection_set}")
 # Difference: Elements in A that are NOT in B
 # Use the - operator or the .difference() method
 difference_set = set_a - set_b
+
 print(f"Difference (A - B): {difference_set}")

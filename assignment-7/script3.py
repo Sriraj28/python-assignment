@@ -15,5 +15,5 @@ class Manager(Employee):
     def details(self):
         print(self.name, self.emp_id, self.dept)
 
-m = Manager("Yatharth", "E101", "IT")
+m = Manager("Sriraj", "E101", "IT")
 m.details()
